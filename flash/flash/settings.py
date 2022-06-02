@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
-import django_on_heroku # diff than video for some reason need o_on_heroku
+import django_on_heroku # diff an video for some reason need o_on_heroku
 import dj_database_url
 from decouple import config
 
