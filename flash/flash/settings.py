@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
-import django_heroku
+import django_on_heroku # diff than video for some reason need o_on_heroku
 import dj_database_url
 from decouple import config
 
@@ -127,7 +127,7 @@ STATIC_URL = 'static/'
 
 STATICFILES_DIRS  = (os.path.join(BASE_DIR,'static'),)
 
-staticFiles_storage = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Default primary key field type
@@ -135,4 +135,4 @@ staticFiles_storage = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-django_heroku.settings(locals())
+django_on_heroku.settings(locals()) # diff than video for some reason need o_on_heroku
