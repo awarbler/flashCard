@@ -6,17 +6,17 @@
 <!-- {Describe your purpose for writing this software.} -->
 A very basic web application that has math flashcards. The website is using Django as a framework. The flashcard website generates web pages dynamically on heroku.  This website will help teach children math facts. The website calls python code when a request in made through the web app. The Python code parses the request and prepares a response. The website performs calculations for the math flashcards. The response is created by the a Python function and automatically sent back to the framework. 
 
-# Install
 
 # Prereq
 
 * Python
 * Javascript
+* Please reveiw requirements
 
 
 <!-- {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.} -->
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://studio.youtube.com/video/upjIDHaWA6s/edit)
 
 # Web Pages
 The website has five pages:
